@@ -104,3 +104,9 @@ This project was developed with the assistance of AI tools to enhance various as
 - Understanding and fixing errors in Recorder function
 - Implementation of Developer vision of UI/UX through code enhancements
 - Understanding Implementation of Web Audio API and assisting by fixing errors
+
+
+
+### This is a Submission by Swayambhuba Padhi for CSOC Week 1 Assignment.
+
+
