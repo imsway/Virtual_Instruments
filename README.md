@@ -28,6 +28,9 @@ A modern web-based virtual piano and drum kit that allows you to create music us
 
 ## Accessing Project files
 
+### Deployed Site Link
+- virtual-instruments.vercel.app
+
 ### Prerequisites
 - A modern web browser (Chrome, Firefox, Safari, or Edge)
 - Basic understanding of keyboard shortcuts (for optimal experience)
