@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body id="drumPage">
+  <a href="../index.html" class="home-icon" title="Back to Home">🥁</a>
+  <button class="theme-toggle" title="Toggle Theme">🌓</button>
+  <h1 id="drumTitle">Drum <span>🥁</span> Kit</h1>
+
+  <div class="drumkit-container">
+    <div class="drum-row">
+      <div class="drum-btn-group">
+        <button id="crash" class="drum-btn drum">
+          <img src="../images/Crash-Cymbal.webp" alt="Crash" class="drum-img" />
+          <span class="drum-key">Y</span>
+          <span class="drum-label">Crash</span>
+        </button>
+        <button id="ride" class="drum-btn drum">
+          <img src="../images/Ride-Cymbal.webp" alt="Ride" class="drum-img" />
+          <span class="drum-key">U</span>
+          <span class="drum-label">Ride</span>
+        </button>
+        <button id="hihat-open" class="drum-btn drum">
+          <img src="../images/Hi-Hat.png" alt="Hi-Hat Open" class="drum-img" />
+          <span class="drum-key">W</span>
+          <span class="drum-label">Hi-Hat Open</span>
+        </button>
+        <button id="hihat" class="drum-btn drum">
+          <img src="../images/Hi-Hat.png" alt="Hi-Hat" class="drum-img" />
+          <span class="drum-key">R</span>
+          <span class="drum-label">Hi-Hat</span>
+        </button>
+        <button id="hihat-foot" class="drum-btn drum">
+          <img src="../images/Hi-Hat.png" alt="Hi-Hat Foot" class="drum-img" />
+          <span class="drum-key">C</span>
+          <span class="drum-label">Hi-Hat Foot</span>
+        </button>
+      </div>
+    </div>
+    <div class="drum-row">
+      <div class="drum-btn-group">
+        <button id="snare-drum" class="drum-btn drum">
+          <img src="../images/Snare-Drum.png" alt="Snare Drum" class="drum-img" />
+          <span class="drum-key">S</span>
+          <span class="drum-label">Snare Drum</span>
+        </button>
+        <button id="snare-stick" class="drum-btn drum">
+          <img src="../images/snare.png" alt="Snare Stick" class="drum-img" />
+          <span class="drum-key">D</span>
+          <span class="drum-label">Snare Stick</span>
+        </button>
+        <button id="bass" class="drum-btn drum">
+          <img src="../images/kick.png" alt="Kick" class="drum-img" />
+          <span class="drum-key">X</span>
+          <span class="drum-label">Kick</span>
+        </button>
+      </div>
+    </div>
+    <div class="drum-row">
+      <div class="drum-btn-group">
+        <button id="floor-tom" class="drum-btn drum">
+          <img src="../images/tom4.png" alt="Floor Tom" class="drum-img" />
+          <span class="drum-key">J</span>
+          <span class="drum-label">Floor Tom</span>
+        </button>
+        <button id="tom-1" class="drum-btn drum">
+          <img src="../images/tom1.png" alt="Tom 1" class="drum-img" />
+          <span class="drum-key">G</span>
+          <span class="drum-label">Tom 1</span>
+        </button>
+        <button id="tom-2" class="drum-btn drum">
+          <img src="../images/tom2.png" alt="Tom 2" class="drum-img" />
+          <span class="drum-key">H</span>
+          <span class="drum-label">Tom 2</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="recorder-controls">
+    <button id="recordStart" class="recorder-btn" title="Start Recording">⏺️</button>
+    <button id="recordStop" class="recorder-btn" title="Stop Recording" disabled>⏹️</button>
+    <button id="recordPause" class="recorder-btn" title="Pause Recording" disabled>⏸️</button>
+    <button id="recordPlay" class="recorder-btn" title="Play Recording" disabled>▶️</button>
+    <span id="recordingStatus" class="recording-status">Not Recording</span>
+  </div>
+
+  <div class="ask">
+    <a href="../html/piano.html">Do you want to play Piano?</a>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <script src="../js/index.js"></script>
+  <script src="../js/theme.js"></script>
+  <script src="../js/recorder.js"></script>
+</body>
+
+</html>
